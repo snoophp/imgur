@@ -1,0 +1,36 @@
+{
+    "name": "snoophp/imgur",
+	"description": "Provides access to Imgur API",
+	"keywords": [
+		"imgur",
+		"api",
+		"image",
+		"hosting",
+		"snoophp",
+		"sneppy"
+	],
+    "type": "library",
+	"license": "MIT",
+	"minimum-stability": "dev",
+	"support": {
+		"issues": "https://github.com/snoophp/imgur/issues",
+        "source": "https://github.com/snoophp/imgur"
+	},
+    "authors": [
+        {
+            "name": "Sneppy",
+            "email": "andrea.mecchia@mail.polimi.it"
+        }
+    ],
+    "require": {
+		"php": ">7.0",
+		"snoophp/cache": "*",
+		"snoophp/curl": ">=0.2.4",
+		"snoophp/utils": "*"
+	},
+	"autoload": {
+        "psr-4": {
+            "SnooPHP\\": "src/SnooPHP/"
+        }
+    }
+}
